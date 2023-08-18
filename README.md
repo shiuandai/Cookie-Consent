@@ -27,7 +27,7 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 * Ensure all points are taken into consideration from & Other Stories Website Template. → [& Other Stories](https://www.stories.com/en/index.html)
 * Learn how to position the cookie window.
 * Control the cookie window delay using the setTimeout method to pop up the window.
-* Learn hoe to take control of element.style in CSS.
+* Learn how to take control of element.style in CSS.
 * Clear the form input field when clicking the "Submit" button.
 
 ---

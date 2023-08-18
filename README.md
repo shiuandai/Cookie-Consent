@@ -95,7 +95,7 @@ function reset(){
 }  //當執行這個function則submit送出後，input內容會立即清空
 ```
 
-⚠️ *In the reset() function, we change the value of the ‘selectedIndex’ property to 2 to reset the selected value of the dropdown to the default value* → [W3School](https://www.w3schools.com/css/css_positioning.asp)
+⚠️ *In the reset() function, we change the value of the ‘selectedIndex’ property to 2 to reset the selected value of the dropdown to the default value*
 
 
 ## Author

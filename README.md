@@ -20,11 +20,11 @@
 
 > The **Cookie Consent** is my seventh static website. it is a floating window which is usually used on the website to collect the data. 
 
-I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how to use JavaScript event and time lag setting skills. At the end of the course, I follow the & Other Stories website template to finish the cookie window, take a look at the project→ [Cookie Consent](https://shiuandai.github.io/Hometown-Homepage/).
+I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how to use JavaScript event and time lag setting skills. At the end of the course, I follow the & Other Stories website template to finish the cookie window, take a look at my project→ [Cookie Consent](https://shiuandai.github.io/Cookie-Consent/).
 
 ## How I start the project?
 
-* Ensure all points are taken into consideration from Figma Template. → [Figma Template from Scrimba](https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage?type=design&node-id=0%3A1&mode=design&t=JhG1UWTiUmIeW14l-1)
+* Ensure all points are taken into consideration from & Other Stories Website Template. → [& Other Stories](https://www.stories.com/en/index.html)
 * Having a materials preparation document where I collect pictures/text information/text font/color to match a better visual communication and coherence in one page.
 * It's important to brainstorm the HTML structure before starting coding, this step helps me save time.
 * Use the "DRY" concept (Don't Repeat Yourself), so that I learn from tailoring the developer's code and learn from it and Scrimba course.

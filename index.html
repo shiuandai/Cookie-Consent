@@ -1,0 +1,63 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <!-- import Tino font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+	<body>
+		<main>
+			<section class="section-container">
+				<h1>Learning to build a cookie demo</h1>
+                <h3>Here are steps that I follow.</h3>
+				<ul>
+					<li class="li-green">💰 Learn Window setTimeout()</li>
+					<li class="li-yellow">💻 Learn HTML Forms</li>
+					<li class="li-blue">⚛️ Learn position of element</li>
+					<li class="li-pink">☕ Learn accessibility</li>
+				</ul>
+			</section>
+		</main>
+        <!-- window_1 -->
+		<div class="modal" id="modal">
+			<div class="close-modal-btn-container">
+				<button class="modal-close-btn" id="modal-close-btn">X</button>
+			</div>
+			<div class="modal-inner" id="modal-inner">
+				<h2>Sign up and get 10% off</h2>
+				<p class="modal-text font_style" id="modal-text">Keep up with our news, 
+                    <br>co-labs and latest stories.
+                    <br>All new subscribers get 10% off one purchases.
+                </p>				
+                <form id="consent-form">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email" class="font_style">Your email</label>
+                    <br>
+                    <select id="select" class="font_style" name="select" required>
+                        <option value="denmark">Choose your location</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="norway">Norway</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="finland">Finland</option>
+                    </select>
+                    <div class="inline_style" id="tick_group">
+                        <input type="checkbox" id="tick" name="tick" value="tick"><label for="tick" class="font_style term_condition">I would like to receive personalized promotions from & Other Stories a brand of the
+                        the H&M Group process my personal data to provide me twith personalized email and text messages in accordance with the <a href="https://www.stories.com/en/customer-service/privacy-notice.html">privacy notioce</a>.
+                        </label>
+                    </div>
+                    <input type="submit" id="submit" value="SUBSCRIBE" onclick = "reset()">
+                </form>
+            </div>
+		</div>
+        <!-- window_2 -->
+        <div class="modal_2" id="modal_2">
+            <p>Thank you for your submission</p>
+        </div>
+		<script src="index.js"></script>
+	</body>
+
+</html>

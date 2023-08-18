@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: #222;
+}
+
+/* typography */
+
+h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700; 
+    line-height: 30px;
+}
+
+ul{
+    list-style: none;
+    padding: 5px 0 0 0;
+}
+
+li{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.li-green{background-color:#E5FDEA}
+.li-yellow{background-color:#FCFDD6}
+.li-blue{background-color:#E5F9FE}
+.li-pink{background-color:#FCF1FE}
+
+/* layout */
+
+img{
+    width: 100%;
+}
+
+main{
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* modal */
+
+.modal {
+/*
+Challenge:
+1. Make the modal sit on top of the other content. 
+2. Make sure it is centrally aligned both horizontally
+   and vertically (just like in the slide).
+3. When it's positioned correctly, set its display 
+   property to 'none'.
+*/
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+/* above to make the cookie window in the central */
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.modal-inner{
+    width: 320px;
+    margin: 0 auto;
+}
+
+#input_text{
+    color: rgb(255, 14, 195);
+}
+
+#email{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+    padding: 0;
+    margin-top: 45px;
+    background-color: white;
+}
+
+.font_style, input[type="email"]{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9px;
+}
+
+#select{
+    width: 320px;
+    height: 26px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(176, 176, 176);
+    border-radius: 0%;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.inline_style{
+    display: flex; 
+    gap: 5px;
+    align-items: flex-start;
+}
+
+#tick_group{
+    margin-top: 20px;
+}
+
+#tick{
+    width: 20px;
+}
+
+.term_condition{
+    padding-top: 7px;
+    line-height: 20px;
+}
+
+input[type="submit"]{
+    background-color: white;
+    border-radius: 0;
+    border: 2px solid black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+/* modal buttons */
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+    font-size: 22px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: black;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: grey;
+    cursor: pointer;
+}
+
+.modal-close-btn:disabled{
+    color: black;
+    cursor: not-allowed;
+}
+
+/* modal input */
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.modal-text{
+    height: 100px;
+    line-height: 23px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* modal_2 wondow shows up */
+.modal_2{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 180;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9px;
+    text-align: center;
+    color: rgb(255, 3, 230);
+    height: 35px;
+    width: 250px;
+}

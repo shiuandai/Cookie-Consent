@@ -86,7 +86,7 @@ modal_close_btn_El.addEventListener('click',function(){
 
 ### 1.4 - Clear multiple input fields after submit
 
-* [ ] There are several ways can reach the goal. This time I use the second method **prop()** methodto apply it into my project. → [How to clear form after submit in Javascript](https://www.tutorialspoint.com/how-to-reset-selected-value-to-default-using-jquery) 
+* [ ] There are several ways that can reach the goal. This time I use the second method **prop()** methodto apply it to my project. → [How to clear form after submit in Javascript](https://www.tutorialspoint.com/how-to-reset-selected-value-to-default-using-jquery) 
 
 ```JS Syntax
 function reset(){
@@ -95,8 +95,8 @@ function reset(){
 }  //當執行這個function則submit送出後，input內容會立即清空
 ```
 
-⚠️ In the reset() function, we change the value of the ‘selectedIndex’ property to 2 to reset the selected value of the dropdown to the default value.
----
+⚠️ *In the reset() function, we change the value of the ‘selectedIndex’ property to 2 to reset the selected value of the dropdown to the default value* → [W3School](https://www.w3schools.com/css/css_positioning.asp)
+
 
 ## Author
 

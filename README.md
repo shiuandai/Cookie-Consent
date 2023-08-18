@@ -49,7 +49,7 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 }
 ```
 
-⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 
+⚠️ *set position: fix", which means it always stays in the same place even if the page is scrolled.* → [W3School](https://www.w3schools.com/css/css_positioning.asp)
 
 **[⬆ back to top](#table-of-contents)**
 

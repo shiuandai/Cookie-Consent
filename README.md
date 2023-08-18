@@ -10,7 +10,7 @@
 * **[1. What is cookie](#1---What-is-cookie)**
 	* [1.1 Position the cookie](#11---Position-the-cookie)
 	* [1.2 Time delay setting](#12---Time-delay-setting)
-	* [1.3 Element.style](#13---Element.style)
+	* [1.3 Elementstyle](#13---Elementstyle)
 	* [1.4 Clear multiple input fields after submit](#14---Clear-multiple-input-fields-after-submit)
 
 ---
@@ -69,7 +69,7 @@ setTimeout(function(){
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.3 - Element.style
+### 1.3 - Elementstyle
 
 It is the useful way to control the css property.
 

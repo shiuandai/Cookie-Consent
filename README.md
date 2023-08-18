@@ -86,9 +86,16 @@ modal_close_btn_El.addEventListener('click',function(){
 
 ### 1.4 - Clear multiple input fields after submit
 
-* [ ] How to host your website, there are several ways. 1. **Netlify** provides next-generation web hosting and automation that's very affordable. Is can be integrated with Github for publishing the web easily. The alternative is using Github Page, my way is to use Github Page. → [Comparison of Github Page and Netlify](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) 
+* [ ] There are several ways can reach the goal. This time I use the second method **prop()** methodto apply it into my project. → [How to clear form after submit in Javascript](https://www.tutorialspoint.com/how-to-reset-selected-value-to-default-using-jquery) 
 
+```JS Syntax
+function reset(){
+    $("#email").prop('selectedIndex', 2);    //type the id here 
+    $("#select").prop('selectedIndex', 2);
+}  //當執行這個function則submit送出後，input內容會立即清空
+```
 
+⚠️ In the reset() function, we change the value of the ‘selectedIndex’ property to 2 to reset the selected value of the dropdown to the default value.
 ---
 
 ## Author

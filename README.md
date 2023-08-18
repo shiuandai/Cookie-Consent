@@ -25,10 +25,10 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 ## How I start the project?
 
 * Ensure all points are taken into consideration from & Other Stories Website Template. → [& Other Stories](https://www.stories.com/en/index.html)
-* Having a materials preparation document where I collect pictures/text information/text font/color to match a better visual communication and coherence in one page.
-* It's important to brainstorm the HTML structure before starting coding, this step helps me save time.
-* Use the "DRY" concept (Don't Repeat Yourself), so that I learn from tailoring the developer's code and learn from it and Scrimba course.
-* To show the completed work between a Web and a template, I prefer refining the CSS code to make sure the project can align the design.
+* Learn how to position the cookie window.
+* Control the cookie window delay using the setTimeout method to pop up the window.
+* Learn hoe to take control of element.style in CSS.
+* Clear the form input field when clicking the "Submit" button.
 
 ---
 

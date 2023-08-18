@@ -35,19 +35,18 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 ### 1.1 - Position the cookie
 
-* [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
-	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [ ] The **position** property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky).
+	> ℹ️ [Position] GET to know more about the definition. → [W3School](https://www.w3schools.com/cssref/pr_class_position.php)
 
-* [ ] **Be familiar with the HTML Tag**. 
-* [ ] Before working on each website project, I can **build every template** with my own structure concept. Building the structure before everything else will facilitate my work afterward.
-
-```html
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-    </div>
-  </div>
-</div>
+```css //central the cookie window //remember to set to fix
+.modal { //put it in the central
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;  //important to set auto
+}
 ```
 
 ⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 

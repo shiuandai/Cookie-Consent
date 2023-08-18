@@ -53,6 +53,7 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 **[⬆ back to top](#table-of-contents)**
 
+
 ### 1.2 - Time delay setting
 
 The **setTimeout()** method calls a function after a number of milliseconds.. → [W3School](https://www.w3schools.com/jsref/met_win_settimeout.asp)
@@ -67,18 +68,18 @@ setTimeout(function(){
 
 **[⬆ back to top](#table-of-contents)**
 
+
 ### 1.3 - Element.style
 
-Fonts are an essential part of every design.
+It is the useful way to control the css property.
 
-It is recommended to organize the font size and style in the design process. There are several websites where the designer can download the font. ([Google font](https://fonts.google.com/)).
+The **style** property returns the values of an element's style attribute. ([W3School](https://www.w3schools.com/jsref/prop_html_style.asp)).
 
-* [ ] Using the technique **@font-face** in CSS, the link is embedded in the CSS. 
-
-  __Resources:__
-	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-
-* [ ] The **Web Safe Fonts** is an important concept. Web-safe fonts are fonts that are pre-installed by many operating systems. While not all systems have the same fonts installed, you can use a web-safe font stack to choose several fonts that look similar and are installed on the various systems that you want to support.
+```JS Syntax
+modal_close_btn_El.addEventListener('click',function(){
+    modalEl.style.display='none'    //check out the syntax in this line
+})
+```
 
 **[⬆ back to top](#table-of-contents)**
 

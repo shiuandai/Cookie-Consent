@@ -12,9 +12,6 @@
 	* [1.2 Colors](#12---colors)
 	* [1.3 Fonts and texts](#13---fonts-and-texts)
 	* [1.4 Publish files](#14---publish-files)
-* **[2. Pre-work phases](#2---pre-work-phases)**
-	* [2.1 Refine the project using CSS](#21---refine-the-project-using-CSS)
-* **[3. Before production](#3---before-production)**
 
 ---
 
@@ -32,11 +29,11 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 ---
 
-## 1. - Design requirements
+## 1. - What is cookie
 
 Designing a cookie consent website requires following skills and the cookie design should like be presented in the website.
 
-### 1.1 - Structure design
+### 1.1 - Position the cookie
 
 * [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
 	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -57,7 +54,7 @@ Designing a cookie consent website requires following skills and the cookie desi
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Colors
+### 1.2 - Time delay setting
 
 You can "SAVE" your color preference in your account. → [Color Palette](https://scrimba.com/links/hometown-palette)
 
@@ -67,7 +64,7 @@ You can "SAVE" your color preference in your account. → [Color Palette](https:
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.3 - Fonts and texts
+### 1.3 - Element.style
 
 Fonts are an essential part of every design.
 
@@ -83,25 +80,10 @@ It is recommended to organize the font size and style in the design process. The
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.4 - Publish files
+### 1.4 - Clear multiple input fields after submit
 
 * [ ] How to host your website, there are several ways. 1. **Netlify** provides next-generation web hosting and automation that's very affordable. Is can be integrated with Github for publishing the web easily. The alternative is using Github Page, my way is to use Github Page. → [Comparison of Github Page and Netlify](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) 
 
-## 2. - Pre-work phases
-
-### 2.1 - Refine the project using CSS
-
-It is recommended to master the **flex-box** concept, it usually combines with different **Property** like **flex-direction: column; align-items: center;** .
-
-Define what condition to use the flex-box, it influences how the content displayed.
-
-⚠️ *When using the flex-box, it is good to use the property of "gap" rather than "margin" to generate the gap.*
-
-## 3. - Before production
-
-Before launching your website, be sure to review all your code and make sure the text layout and comment it's easy to read for another programmer.
-
-**[⬆ back to top](#table-of-contents)**
 
 ---
 

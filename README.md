@@ -31,7 +31,7 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 ## 1. - What is cookie
 
-Designing a cookie consent website requires following skills and the cookie design should like be presented in the website.
+**A cookie** is a piece of data from a website that is stored within a web browser that the website can retrieve at a later time. → [Definition](https://www.trendmicro.com/vinfo/us/security/definition/cookies)
 
 ### 1.1 - Position the cookie
 

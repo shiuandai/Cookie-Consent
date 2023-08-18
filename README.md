@@ -55,11 +55,15 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 ### 1.2 - Time delay setting
 
-You can "SAVE" your color preference in your account. → [Color Palette](https://scrimba.com/links/hometown-palette)
+The **setTimeout()** method calls a function after a number of milliseconds.. → [W3School](https://www.w3schools.com/jsref/met_win_settimeout.asp)
 
-* [ ] **All colors used in the creatives are named** (RED: #E63946, LIGHT: #F1FAEE, AQUA: #A8DADC, LIGHT BLUE: #457B9D, DARK BLUE: #1D3557) which are provided by Scrimba course so that they become the basic color guideline to use in my project.
+* [ ] **1 second = 1000 milliseconds.**
 
-* [ ] All of the most important/used **colors contrast** in the design to allow text with the background can be easily read.
+```JS Syntax
+setTimeout(function(){
+    modalEl.style.display='inline'
+}, 1500)  //means the window pops up in 1.5s
+```
 
 **[⬆ back to top](#table-of-contents)**
 

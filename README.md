@@ -34,7 +34,7 @@ I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how
 
 ## 1. - Design requirements
 
-Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+Designing a cookie consent website requires following skills and the cookie design should like be presented in the website.
 
 ### 1.1 - Structure design
 

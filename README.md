@@ -17,7 +17,7 @@
 
 > The **Cookie Consent** is my seventh static website. it is a floating window which is usually used on the website to collect the data. 
 
-I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how to use JavaScript event and time lag setting skills. At the end of the course, I follow the & Other Stories website template to finish the cookie window, take a look at my project→ [Cookie Consent](https://shiuandai.github.io/Cookie-Consent/).
+I start the Scrimba Module 5 course- Essential JavaScript Concepts and learn how to use JavaScript event and time lag setting skills. At the end of the course, I follow the "& Other Stories" website template to finish the cookie window, take a look at my project→ [Cookie Consent](https://shiuandai.github.io/Cookie-Consent/).
 
 ## How I start the project?
 
